@@ -1,0 +1,8 @@
+# Private Code Area Marker
+
+This file marks areas where proprietary Botanika ZK proof generation code would be located.
+
+The actual zk-STARK proof generation, encoding, challenge logic, and Merkle structure computation 
+used in Botanika's production nodes are private and proprietary.
+
+This repository serves as a reference and documentation hub only. 

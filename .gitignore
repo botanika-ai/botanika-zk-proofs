@@ -1,0 +1,96 @@
+# Botanika ZK-Proofs Repository .gitignore
+
+# Internal proprietary code
+internal-prover/
+*.proprietary
+*.internal
+*.secret
+
+# Cryptographic keys and parameters
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.p7b
+*.p7c
+*.p7s
+*.p8
+*.p10
+*.p12
+*.pfx
+*.pem
+*.crt
+*.cer
+*.der
+*.p7b
+*.p7c
+*.p7s
+*.p8
+*.p10
+*.p12
+*.pfx
+
+# STARK parameters and proving keys
+stark_params/
+proving_keys/
+verification_keys/
+circuit_params/
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Build artifacts
+dist/
+build/
+node_modules/
+*.pyc
+__pycache__/
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Documentation build
+docs/_build/
+docs/.doctrees/
+
+# Backup files
+*.bak
+*.backup
+*.old 
+
+# Dev Docs
+docs/
